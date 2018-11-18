@@ -1,3 +1,13 @@
+# Lesson Three
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+
+<a name="lesson"/>
+
+## The Lesson
+
 * In this lesson you can see how to do some simple math, and use if/else statements
  * if statements:
 	 * If statements are a very simple feature of Java that can do some really amazing and complicated things.
@@ -40,7 +50,7 @@
 	 * Assignment Operator:
 		 * = is the only assignment operator and we already talked about what it does when discussing variables.
 	 * Arithmetic Operators:
-		 * +, -, *, /, and % are the only arithmetic operators and they are all self explanatory except for %.
+		 * +, -, \*, /, and % are the only arithmetic operators and they are all self explanatory except for %.
 		 * % is called the Modulus or Modulo and it gives you the remainder of the division of two numbers.
 			 * 6 % 2 = 0
 			 * 7 % 2 = 1
@@ -54,5 +64,10 @@
 			 * Just because == is an operator doesn't mean you should only use it.  Don't forget .equals()!
 		 * > and < are used for seeing whether something is greater or less than another.
 			 * You can also use >= and <= for greater than or equal to and less than or equal to.
- * The Program:
-	 * In this program we create a fairly simple calculator that allows the user to choose what operation they wish to perform on two numbers.
+
+
+<a name="program"/>
+
+## The Program
+
+ * In this program we create a fairly simple calculator that allows the user to choose what operation they wish to perform on two numbers.

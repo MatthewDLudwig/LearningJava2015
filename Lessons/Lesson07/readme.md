@@ -1,3 +1,14 @@
+# Lesson Seven
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+[The Assignment](#assignment)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson we will discuss methods that programmers call getters and setters along with scope of variables and methods.
 	 * Scope
 		 * In Java, and many other languages, there is an idea of something called scope.
@@ -103,34 +114,43 @@
 		 * With these rules in mind that also means that we can check to make sure a variable is not null and do something with that variable in the same set of parenthesis
 			 * This is because if the variable is null, we don't try to do something with it which would cause an error, but instead just move on.
 		 * There will be some exercises to help you practice these rules with the assignment.
-	 * The Program:
-		 * In this program we update our old Person class and make it so that we can assign that person a friend.
-			 * We make it so that Person objects do something special when the sayTo(...) is called and their friend is passed in.
-		 * This is a small program showing getters and setters as they are a small but important topic.
-		 * We then create a bunch of Person objects and then make them eachother's friends.
 
- * Assignment:
-	 * Practice understanding the rules I taught you.
-		 * Look at this logic and come up with what the answers are and check them in the comment below.
-		 * No code is necessary for this.
-			 * (true || false) = ???
-			 * (false && (true || false)) = ???
-			 * ((true && (false || true)) || (false || true || (true && (false || true)))) = ???
-			 * ((((true && false) || false) && false) || true) = ???
-			 * (((false && true) || ERROR) || true)) = If attempting to run ERROR will cause a crash in your program, will your program crash?
-		 * If you ever need more practice with this kind of stuff you can ask for more of these or just type random combinations try them yourselve.
-			 * To check whether you are correct just copy and paste them into a System.out.println(...) statement and see what prints.
-	 * I also encourage you to update your Person class from the last assignment with a setFriend(...) method that works like the one made in the program.
-		 * I also would suggest that when one person object has it's friend set, the person being set to that object's friend should have that object set as it's friend.
-			 * If that is not clear then check the below comment with the answers to the above part but you should start getting used to vague instructions.
-				 * They do not come up often but when they do the programmer is usually expected to instinctively know what to do.
-			 * Keep in mind that if you do this, if two different people are set to have the same friend, they will have that same friend but the same friend will only have the last one as it's friend.
-				 * We will be doing this suggestion in the final assignment and will be fixing this small problem.
-		 * These are all suggestions but if you want to do a little bit more programming you should do them.
 
- * true
- * false
- * true
- * true
- * Yes your program will crash because the first part comes out to false so the second part of the || is checked which gives an ERRROR.
- * If you did not understand the suggestion above, if Matt becomes Tony's friend through tony.setFriend(matt), Tony should become Matt's friend too.
+<a name="program"/>
+
+## The Program
+
+ * In this program we update our old Person class and make it so that we can assign that person a friend.
+	 * We make it so that Person objects do something special when the sayTo(...) is called and their friend is passed in.
+ * This is a small program showing getters and setters as they are a small but important topic.
+ * We then create a bunch of Person objects and then make them eachother's friends.
+
+
+<a name="assignment"/>
+
+## The Assignment
+
+ * Practice understanding the rules I taught you.
+	 * Look at this logic and come up with what the answers are and check them in the comment below.
+	 * No code is necessary for this.
+		 * (true || false) = ???
+		 * (false && (true || false)) = ???
+		 * ((true && (false || true)) || (false || true || (true && (false || true)))) = ???
+		 * ((((true && false) || false) && false) || true) = ???
+		 * (((false && true) || ERROR) || true)) = If attempting to run the code replaced by ERROR will cause a crash in your program, will your program crash?
+	 * If you ever need more practice with this kind of stuff you can ask for more of these or just type random combinations try them yourselve.
+		 * To check whether you are correct just copy and paste them into a System.out.println(...) statement and see what prints.
+ * I also encourage you to update your Person class from the last assignment with a setFriend(...) method that works like the one made in the program.
+	 * I also would suggest that when one person object has it's friend set, the person being set to that object's friend should have that object set as it's friend.
+		 * If that is not clear then check the below comment with the answers to the above part but you should start getting used to vague instructions.
+			 * They do not come up often but when they do the programmer is usually expected to instinctively know what to do.
+		 * Keep in mind that if you do this, if two different people are set to have the same friend, they will have that same friend but the same friend will only have the last one as it's friend.
+			 * We will be doing this suggestion in the final assignment and will be fixing this small problem.
+	 * These are all suggestions but if you want to do a little bit more programming you should do them.
+ 	 * If you did not understand the suggestion above, if Matt becomes Tony's friend through tony.setFriend(matt), Tony should become Matt's friend too.
+ * Answers
+	 * true
+	 * false
+	 * true
+	 * true
+	 * Yes your program will crash because the first parenthesis comes out to false so no short circuiting occurs and the second part of the || is checked which gives an ERRROR.

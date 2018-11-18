@@ -1,3 +1,14 @@
+# Lesson Nine
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+[The Assignment](#assignment)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson we are going to discuss the ideas of Enums:
 	 * Enums:
 		 * Enums are an amazing way to use the idea of constants in Java.
@@ -82,31 +93,38 @@
 			 * This way of accessing things is something that we have not fully explained and will not go into for a while.
 				 * For now just know that in order to access an enum you must do this.
 				 * I hate to keep information from you but there is much more important information for you to learn first before going into this method of accessing variables and methods.
-	 * The Program:
-		 * In this program we create a card class that requires the use of two enums.
-			 * The first enum is the suit of the card.
-				 * Possibly suits are Clubs, Spades, Hearts, and Diamonds.
-			 * The second enum is the type of the card.
-				 * Possibly types are Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, and King.
-			 * If you do not know how a normal deck of cards works, there are 52 cards with four suits of 13 cards.
-				 * The 13 cards are numbered from Ace to King in the way that I described for the types.
-			 * Since there are only four possibly suits and 13 possibly types, enums are a wonderful way to do this.
-		 * Aside from the card class that requires the use of two enums, we also create a card class that uses Strings and integers in place of enums.
-			 * This is to show how insecure and inefficient they are.
-		 * After creating the two classes, we then instantiate (create) a few objects of each and see what happens as we test a few of the functions that they have.
 
- * Assignment:
-	 * Practice coming up with enums for sets of information.
-		 * I am going to give you the name of the class we are storing our enums in and you need to tell me what all of the enums should be.
-			 * Answers are in the comment below this one!
-			 * Keep in mind some of these you will not be able to come up with them all since there are so many.
-				 * Depending on your specific program you would only need a certain subset of every type of something and that would be what you make your enums out of.
-		 * public enum IceCreamFlavor {...} (This is an example of one with way too many answers so just pick a small subset to answer with)
-		 * public enum Gender {...}
-		 * public enum HairColor {...}
-		 * public enum BodyPart {...} (This is another example of one with quite a few answers so just work with the basic ones)
+<a name="program"/>
 
- * For IceCreamFlavor I would do - VANILLA, CHOCOLATE, STRAWBERRY, VANILLACHOCOLATEMIX, COOKIESANDCREAM;
-	 * Gender - MALE, FEMALE;
-	 * HairColor - RED, BLACK, BROWN, BLONDE, DYED;
-	 * BodyPart - LEG, ARM, HEAD, BODY, FOOT, HAND, EYE, HAIR;
+## The Program
+
+ * In this program we create a card class that requires the use of two enums.
+	 * The first enum is the suit of the card.
+		 * Possibly suits are Clubs, Spades, Hearts, and Diamonds.
+	 * The second enum is the type of the card.
+		 * Possibly types are Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, and King.
+	 * If you do not know how a normal deck of cards works, there are 52 cards with four suits of 13 cards.
+		 * The 13 cards are numbered from Ace to King in the way that I described for the types.
+	 * Since there are only four possibly suits and 13 possibly types, enums are a wonderful way to do this.
+ * Aside from the card class that requires the use of two enums, we also create a card class that uses Strings and integers in place of enums.
+	 * This is to show how insecure and inefficient they are.
+ * After creating the two classes, we then instantiate (create) a few objects of each and see what happens as we test a few of the functions that they have.
+
+<a name="assignment"/>
+
+## The Assignment
+
+ * Practice coming up with enums for sets of information.
+	 * I am going to give you the name of the class we are storing our enums in and you need to tell me what all of the enums should be.
+		 * Answers are in the comment below this one!
+		 * Keep in mind some of these you will not be able to come up with them all since there are so many.
+			 * Depending on your specific program you would only need a certain subset of every type of something and that would be what you make your enums out of.
+	 * public enum IceCreamFlavor {...} (This is an example of one with way too many answers so just pick a small subset to answer with)
+	 * public enum Gender {...}
+	 * public enum HairColor {...}
+	 * public enum BodyPart {...} (This is another example of one with quite a few answers so just work with the basic ones)
+ * Answers
+	 * For IceCreamFlavor I would do - VANILLA, CHOCOLATE, STRAWBERRY, VANILLACHOCOLATEMIX, COOKIESANDCREAM;
+		 * Gender - MALE, FEMALE;
+		 * HairColor - RED, BLACK, BROWN, BLONDE, DYED;
+		 * BodyPart - LEG, ARM, HEAD, BODY, FOOT, HAND, EYE, HAIR;

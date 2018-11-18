@@ -1,3 +1,14 @@
+# Lesson Five
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+[The Assignment](#assignment)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson you can see how to create objects and how to call methods within them.
 	 * Note:
 		 * Congrats on making it this far you now know how to code in almost any programming language!!!
@@ -49,11 +60,21 @@
 			 * If you missed the connection between what was just discussed and my statement about objects reread the lesson up to this point.
 				 * This is THAT important.
 			 * If you did understand the connection then still reread the lesson and then this summary.
-				 * Objects allow you to access methods within a class.
+				 * Objects allow you to access non static methods within a class.
 		 * Now if you know anything else about objects from other sources it would be helpful to forget it so this information stays clear.
-	 * The Program:
-		 * In this program we create a new class called Person and then create two objects of that same Person class.
-		 * We can then call the sayHello() method for both objects which prints "Hello World!" to the console.
+
+
+<a name="program"/>
+
+## The Program
+
+ * In this program we create a new class called Person and then create two objects of that same Person class.
+ * We can then call the sayHello() method for both objects which prints "Hello World!" to the console.
+
+
+<a name="assignment"/>
+
+## The Assignment
 
  * The Assignment:
 	 * Make a program that will ask for the user's date of birth.

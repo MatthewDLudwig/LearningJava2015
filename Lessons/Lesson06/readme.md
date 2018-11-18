@@ -1,3 +1,14 @@
+# Lesson Six
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+[The Assignment](#assignment)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson we are going to focus on methods, mainly ones that require parameters.
 	 * Methods:
 		 * As a review, a method is almost like a mini program or subroutine that you can run during your program.
@@ -131,37 +142,45 @@
 			 * The reason it works this was is because that actually is what it is doing!
 			 * Example:  this.VARIABLENAME; or this.METHODNAME();
 		 * Understanding the "this" keyword can be quite hard for some people so if you have any questions just ask!
-	 * The Program:
-		 * In this program we create a Person class that simplifies the code we wrote in our first and second program.
-			 * Reread those two programs and then try to spot the similarities to this program.
-		 * What we do is to take what was associated with what a person was in those two programs and put it into a class.
-			 * This allows us to make objects that can be used as if they were people.
-			 * Remember that what defined a person in that program could be said to be:
-				 * Having a name, age, and a favorite letter.
-		 * After creating the person class we use a few of the methods within it to show how it is like the first and second program.
-			 * To do this we create ten different people and use the methods within each object.
-				 * This shows you how each object has it's own information separate from all other objects.
-					 * This is because while they all come from the same class, each is it's own unique instance of that class.
-			 * Try to imagine how much work it would have been to do what we did in the first and second program 10 times.
-				 * Now look at the program here and see how much easier it is when we can use variables and methods within objects.
 
 
- *  Assignment:
-	 * Now I am going to give you an assignment that relates to this lesson.  The assignments are going to be coming up more often from now on.
-	 * Your assignment is to write your own person class.
-		 * This person class will have to have all of the same fields (another name for variables) as the one created for this lesson's program.
-		 * It will also have to have a gender which you can pass into the constructor and store in any way.
-			 * The constructor should no longer clutter the console with "Hello World" statements.
-		 * When the speak method is called for this new Person class, men and women should say something different but still give the same information as before.
-			 * It does not have to give the gender although it can if you want.
-		 * The speakTo method will now have to have a Person object passed in rather than a String.
-			 * You will then access the passed in object's name variable to print out the statement from before.
-	 * After creating your own person class have the user input a name, age, favoriteLetter, and gender for as many people as they want.
-		 * The program should stop asking for input's when the name "STOP" is input.
-		 * Every other person should speak to the person who came before them.
-			 * First person should use the speak() method, the second the speakTo(...) method, etc...
-	 * My person class for this assignment is named OtherPerson due to the fact that there is already a class called Person above.
-		 * You don't have to do this since your assignment should be done in a different package and so you won't have the original Person class.
+<a name="program"/>
+
+## The Program
+ * In this program we create a Person class that simplifies the code we wrote in our first and second program.
+	 * Reread those two programs and then try to spot the similarities to this program.
+ * What we do is to take what was associated with what a person was in those two programs and put it into a class.
+	 * This allows us to make objects that can be used as if they were people.
+	 * Remember that what defined a person in that program could be said to be:
+		 * Having a name, age, and a favorite letter.
+ * After creating the person class we use a few of the methods within it to show how it is like the first and second program.
+	 * To do this we create ten different people and use the methods within each object.
+		 * This shows you how each object has it's own information separate from all other objects.
+			 * This is because while they all come from the same class, each is it's own unique instance of that class.
+	 * Try to imagine how much work it would have been to do what we did in the first and second program 10 times.
+		 * Now look at the program here and see how much easier it is when we can use variables and methods within objects.
+
+
+
+<a name="assignment"/>
+
+## The Assignment
+
+ * Now I am going to give you an assignment that relates to this lesson.  The assignments are going to be coming up more often from now on.
+ * Your assignment is to write your own person class.
+	 * This person class will have to have all of the same fields (another name for variables) as the one created for this lesson's program.
+	 * It will also have to have a gender which you can pass into the constructor and store in any way.
+		 * The constructor should no longer clutter the console with "Hello World" statements.
+	 * When the speak method is called for this new Person class, men and women should say something different but still give the same information as before.
+		 * It does not have to give the gender although it can if you want.
+	 * The speakTo method will now have to have a Person object passed in rather than a String.
+		 * You will then access the passed in object's name variable to print out the statement from before.
+ * After creating your own person class have the user input a name, age, favoriteLetter, and gender for as many people as they want.
+	 * The program should stop asking for input's when the name "STOP" is input.
+	 * Every other person should speak to the person who came before them.
+		 * First person should use the speak() method, the second the speakTo(...) method, etc...
+ * My person class for this assignment is named OtherPerson due to the fact that there is already a class called Person above.
+	 * You don't have to do this since your assignment should be done in a different package and so you won't have the original Person class.
  *  As a note:
  *  	If you get any errors from your IDE / compiler telling you that one of your variables may not be initialized you should fix that.
  *  		Ways to fix this is to just initialize them to some useless value.

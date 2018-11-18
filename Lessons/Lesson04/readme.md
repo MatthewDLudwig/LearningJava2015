@@ -1,3 +1,13 @@
+# Lesson Four
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson you learn how to use while and for loops:
  * Declaring multiple variables at the same time:
 	 * As long as you are declaring the same type of variables, you can declare multiple variables on the same line.
@@ -80,10 +90,14 @@
 			 * System.out.println(false || false) will print false.
 		 * There is a third conditional operator but we will be ignoring it for now as it slightly complicates things.
 			 * It also causes code to be less readable but only if used incorrectly so for now we should focus on easier things.
- * The Program:
-	 * In this program we have the user input an integer as many times as they want and add it to the total variable.
-	 * We only stop looking for input when the user enters -1.
-	 * At the end of the program you can also see both a while and a for loop being used for incrementing.
-	 * Unfortunately I do not use any of the new conditional operators we learned but its better that you know them now.
-		 * Make sure to study them so when we start using them you are a pro (which will be helpful as we only keep learning from here).
 
+
+<a name="program"/>
+
+## The Program
+
+ * In this program we have the user input an integer as many times as they want and add it to the total variable.
+ * We only stop looking for input when the user enters -1.
+ * At the end of the program you can also see both a while and a for loop being used for incrementing.
+ * Unfortunately I do not use any of the new conditional operators we learned but its better that you know them now.
+	 * Make sure to study them so when we start using them you are a pro (which will be helpful as we only keep learning from here).

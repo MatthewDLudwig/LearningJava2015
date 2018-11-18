@@ -1,3 +1,14 @@
+# Lesson Ten
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+[The Assignment](#assignment)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson, which is the last one of the second group, we will beginning to learn about inheritance.
 	 * Inheritance
 		 * In Java, classes can inherit things from each other.
@@ -101,43 +112,51 @@
 						 * x.equals(y) has to equal y.equals(x).
 					 * If object one is equal to object two and object two is equal to object three, then object one should be equal to object three.
 						 * if x.equals(y) and y.equals(z) both return true, then x.equals(z) should return true.
-	 * The Program:
-		 * In this program improve our Person class further in order to make it so that People can be represented as String and be compared.
-		 * After adding a toString and equals method to our Person class, we just mess around with a few objects that we make to see how the methods we made work.
 
- * Assignment:
-	 * Your assignment for this set of five lessons is to overhaul the Person class you made before.
-	 * Features that the new and improves Person class should have:
-		 * Each person should have a name, gender, birth date, and state.
-		 * Birth date must be stored in 3 separate variables, one for the month, one for the day, and one for the year.
-			 * You should check to make sure that the day is appropriate for the month specified.
-				 * If it is not, set it to the highest possibly day for that month.
-					 * For January, if 36 is entered, you should set day to 31.
-					 * For February, use 28 as the highest possible day.
-		 * State MUST be stored as an enum.
-		 * Each person must also have an array full of all of their friends and enemies.
-			 * That means there should be a method to add a friend and to add an enemy.
-				 * When a friend or enemy is added it should remove that person from the opposite list if it is in it.
-			 * The arrays should start out at a size of 2 and if there is no room for the new friend or enemy they should be expanded to twice the old size.
-				 * This is slightly complicated and so if you get stuck just take a look at my example.
-				 * It involves creating a new array as you can't actually change the size of an array.
-		 * The toString() method must return the following information:
-			 * The name, the gender, and THE AGE (based off December 31, 2014 like in the first assignment).
-		 * The equals() method should compare every variable that is stored for the object.
-			 * Remember that you have to copy and paste the line of code used in the program above that allows you to compare the object as if it was a person.
-			 * You do not have to compare the friends and enemies for an object as the friends could be in a different order which might cause problems.
-		 * The speakTo method should accept a person object and speak to that person as it always has.
-			 * Women should speak differently from men.
-			 * Person objects should speak different to friends, to enemies, and to people in neither list.
-	 * After creating the new Person class you should create a few person objects and make sure that all criteria are met.
-	 * Note:
-		 * There is at least one other way you can use enums in this assignment to make your life easier.
-		 * You can use the toString() method in order to make part of your speak() and speakTo() methods easier.
-			 * Remember toString() is just a String representation that is useful to programmers
-				 * As long as it is still useful in general, you could make it one that helps with the speak() method.
-		 * I have to name my new Person class OtherPerson because I already have a class named Person.
-		 * You are free to experiment and add a few extra features to this class but I recommend you do not make it so that when one person gets a friend that person becomes the friends friend.
-			 * That means that when carly becomes matts friend that matt becomes carlys friend.
-			 * I recommend you DO NOT do this because you will run into an error where you are infinitely repeating a function unless you work around that.
-				 * It is definitely possibly but it is not something you should have to worry about.
-					 * Especially since you will later learn a better way to work with something like this friends list and enemies list so that this is less likely to occur.
+<a name="program"/>
+
+## The Program
+
+ * In this program improve our Person class further in order to make it so that People can be represented as String and be compared.
+ * After adding a toString and equals method to our Person class, we just mess around with a few objects that we make to see how the methods we made work.
+
+
+<a name="assignment"/>
+
+## The Assignment
+
+ * Your assignment for this set of five lessons is to overhaul the Person class you made before.
+ * Features that the new and improves Person class should have:
+	 * Each person should have a name, gender, birth date, and state.
+	 * Birth date must be stored in 3 separate variables, one for the month, one for the day, and one for the year.
+		 * You should check to make sure that the day is appropriate for the month specified.
+			 * If it is not, set it to the highest possibly day for that month.
+				 * For January, if 36 is entered, you should set day to 31.
+				 * For February, use 28 as the highest possible day.
+	 * State MUST be stored as an enum.
+	 * Each person must also have an array full of all of their friends and enemies.
+		 * That means there should be a method to add a friend and to add an enemy.
+			 * When a friend or enemy is added it should remove that person from the opposite list if it is in it.
+		 * The arrays should start out at a size of 2 and if there is no room for the new friend or enemy they should be expanded to twice the old size.
+			 * This is slightly complicated and so if you get stuck just take a look at my example.
+			 * It involves creating a new array as you can't actually change the size of an array.
+	 * The toString() method must return the following information:
+		 * The name, the gender, and THE AGE (based off December 31, 2014 like in the first assignment).
+	 * The equals() method should compare every variable that is stored for the object.
+		 * Remember that you have to copy and paste the line of code used in the program above that allows you to compare the object as if it was a person.
+		 * You do not have to compare the friends and enemies for an object as the friends could be in a different order which might cause problems.
+	 * The speakTo method should accept a person object and speak to that person as it always has.
+		 * Women should speak differently from men.
+		 * Person objects should speak different to friends, to enemies, and to people in neither list.
+ * After creating the new Person class you should create a few person objects and make sure that all criteria are met.
+ * Note:
+	 * There is at least one other way you can use enums in this assignment to make your life easier.
+	 * You can use the toString() method in order to make part of your speak() and speakTo() methods easier.
+		 * Remember toString() is just a String representation that is useful to programmers
+			 * As long as it is still useful in general, you could make it one that helps with the speak() method.
+	 * I have to name my new Person class OtherPerson because I already have a class named Person.
+	 * You are free to experiment and add a few extra features to this class but I recommend you do not make it so that when one person gets a friend that person becomes the friends friend.
+		 * That means that when carly becomes matts friend that matt becomes carlys friend.
+		 * I recommend you DO NOT do this because you will run into an error where you are infinitely repeating a function unless you work around that.
+			 * It is definitely possibly but it is not something you should have to worry about.
+				 * Especially since you will later learn a better way to work with something like this friends list and enemies list so that this is less likely to occur.

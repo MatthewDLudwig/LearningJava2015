@@ -1,3 +1,14 @@
+# Lesson Eight
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+[The Assignment](#assignment)  
+
+<a name="lesson"/>
+
+## The Lesson
+
  * In this lesson we will discuss arrays and switch statements.
 	 * Arrays
 		 * Arrays are a way to store multiple variables within one.
@@ -39,17 +50,23 @@
 		 * Due to the fact that you must declare each individual case and the only way to do ranges is to declare every case in between, switch statements are only really used when you know exactly what you are dealing with.
 			 * This usually means constants, such as the days of the week, because you know there are only 7 options.
 				 * Then you just use the default case for if someone passes something in that does not match what you expected.
-	 * The Program:
-		 * In this program we write a program similar to the one from Lesson 7 to use arrays.
-		 * We use arrays to store the names, ages, and favoriteletters of 5 people and then use a for loop to create the actual people that are stored in another array.
-		 * During the for loop we use a switch statement to test the favorite letter of the people and print out a certain line into the console.
-			 * Here you will see how limited a switch statement can be and why it should only really be used when you know exactly what you are working with.
 
- * Assignment:
-	 * Practice coming up with index values for the elements in an array.
-		 * Look at the following arrays and give the index values for the requested element.
-			 * {6, 2, 7, 8, 5, 5, 13}, What index is 6 at?  What about 13?  What about 8?  What about the second 5?
-			 * {'a', 'b', 'c', 'd', 'e', 'f', 'g'}, What indexes would we need to make the word cab?  What about the word bed?  What about bead?
-			 
- * 0, 6, 3, and 5.
- * 2, 0, 1 and 1, 4, 3 and 1, 4, 0, 3.
+<a name="program"/>
+
+## The Program
+
+ * In this program we write a program similar to the one from Lesson 7 to use arrays.
+ * We use arrays to store the names, ages, and favoriteletters of 5 people and then use a for loop to create the actual people that are stored in another array.
+ * During the for loop we use a switch statement to test the favorite letter of the people and print out a certain line into the console.
+	 * Here you will see how limited a switch statement can be and why it should only really be used when you know exactly what you are working with.
+
+<a name="assignment"/>
+
+## The Assignment
+ * Practice coming up with index values for the elements in an array.
+	 * Look at the following arrays and give the index values for the requested element.
+		 * {6, 2, 7, 8, 5, 5, 13}, What index is 6 at?  What about 13?  What about 8?  What about the second 5?
+		 * {'a', 'b', 'c', 'd', 'e', 'f', 'g'}, What indexes would we need to make the word cab?  What about the word bed?  What about bead?
+ * Answers
+	 * 0, 6, 3, and 5.
+	 * 2, 0, 1 and 1, 4, 3 and 1, 4, 0, 3.
