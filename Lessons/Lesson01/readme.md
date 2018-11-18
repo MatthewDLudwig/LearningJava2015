@@ -1,4 +1,14 @@
- * In this lesson you can see the basics of Java at work: 
+# Lesson One
+
+## Table of Contents  
+[The Lesson](#lesson)  
+[The Program](#program)  
+
+
+## The Lesson 
+<a name="lesson"/>
+
+* In this lesson you can see the basics of Java at work: 
  * Variables:
 	 * Variables can be set equal to either literals, objects, or other variables.
 		 * String name = "Hi";
@@ -38,6 +48,9 @@
 				 * %s is for Strings
 				 * %d is for numbers although %s will still work for primitive numbers since they are treated like strings.
 	 * The + Math operator can be used to combine two strings or a string and a primitive so you can emulate how printf works.
- * The Program:
-	 * In the program we assign create three variables (name, age, and favoriteLetter) and assign them to the appropriate literals.
-	 * We then mess around with printing some text to the console including through the use of these variables.
+
+## The Program
+<a name="program"/>
+
+ * In the program we assign create three variables (name, age, and favoriteLetter) and assign them to the appropriate literals.
+ * We then mess around with printing some text to the console including through the use of these variables.
