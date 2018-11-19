@@ -181,18 +181,18 @@
 		 * First person should use the speak() method, the second the speakTo(...) method, etc...
  * My person class for this assignment is named OtherPerson due to the fact that there is already a class called Person above.
 	 * You don't have to do this since your assignment should be done in a different package and so you won't have the original Person class.
- *  As a note:
- *  	If you get any errors from your IDE / compiler telling you that one of your variables may not be initialized you should fix that.
- *  		Ways to fix this is to just initialize them to some useless value.
- *  		The reason you get this error is because there is a some scenario where your code will run and it would crash if you did not initialize it.
- *  		The reason we can fix this is by initializing it to some useless value is because we are confident it won't get used.
- *  		There will be better ways to fix this in the future.
- *  	Also, input from the console using a scanner can sometimes be messy when you mix nextLine() with other methods such as next()
- *  		I suggest using only nextLine() and storing age as a String.
- *  		You can also use this line of code if you want to use an int but you are not expected to understand it.
- *  			Integer.valueOf(input.nextLine());
- *  I am going to say this again, please experiment when doing the assignments.
- *  	I don't do it here as the less experimenting I do the more I can work on the next lesson.
- *  	Possible ideas though are having the speakTo(...) method say something different if the object speaking is a man or woman.
- *  		You can also have something different be said if the person the object you are speaking to is a man or woman.
- *  		You can also add some other methods that say different things in the console.
+ * As a note:
+   	* If you get any errors from your IDE / compiler telling you that one of your variables may not be initialized you should fix that.
+		 * Ways to fix this is to just initialize them to some useless value.
+ 		 * The reason you get this error is because there is a some scenario where your code will run and it would crash if you did not initialize it.
+ 		 * The reason we can fix this is by initializing it to some useless value is because we are confident it won't get used.
+ 		 * There will be better ways to fix this in the future.
+	 * Also, input from the console using a scanner can sometimes be messy when you mix nextLine() with other methods such as next()
+		 * I suggest using only nextLine() and storing age as a String.
+		 * You can also use this line of code if you want to use an int but you are not expected to understand it.
+			 * Integer.valueOf(input.nextLine());
+ * I am going to say this again, please experiment when doing the assignments.
+	 * I don't do it here as the less experimenting I do the more I can work on the next lesson.
+	 * Possible ideas though are having the speakTo(...) method say something different if the object speaking is a man or woman.
+		 * You can also have something different be said if the person the object you are speaking to is a man or woman.
+		 * You can also add some other methods that say different things in the console.
