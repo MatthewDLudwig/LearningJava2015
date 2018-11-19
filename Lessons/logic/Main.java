@@ -9,10 +9,10 @@ public class Main {
 // 		Where XX is 01->10 and YYY is One->Ten
 		Lesson l = new LessonOne();
 
-		System.out.println("Lesson: -->")
+		System.out.println("Lesson: -->");
 		l.theLesson();
 
-		System.out.println("Assignment: -->")
+		System.out.println("Assignment: -->");
 		l.theAssignment();
 
 	}
