@@ -10,6 +10,7 @@
 [Lesson # 8](./Lesson08)  
 [Lesson # 9](./Lesson09)  
 [Lesson #10](./Lesson10)  
+[Before Lessons #11-#15](./Lesson10Point5)  
 [Lesson #11](./Lesson11)  
 [Lesson #12](./Lesson12)  
 [Lesson #13](./Lesson13)  
