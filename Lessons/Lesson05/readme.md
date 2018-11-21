@@ -87,7 +87,7 @@
 			 * You should continuously ask for the day until a correct day is entered.
 				 * For February, 29 is an acceptable day so you don't have to worry about leap years.
 		 * The year must be realistic.
-			 * It cannot be larger than 2010.
+			 * It cannot be larger than 2015.
 			 * It cannot be smaller than 1700.
 			 * Do these dates sound realistic?
 				 * Maybe for 2010 but not for 1700.
@@ -113,7 +113,7 @@
 			 * It is better that I introduce it to you early so you have time to absorb the information before we dive in head first.
 		 * I also recommend typing everything out rather than copying and pasting as it helps you get used to typing faster.
 			 * It will also help you get used to the way java code is written and your IDE's auto-complete feature.
-	 * Below is my version of the program for you to look at AFTER YOU ARE DONE.
+	 * Included is my version of the program for you to look at AFTER YOU ARE DONE.
 		 * Mine is done with readability and efficiency in mind although it is not perfect.
 		 * You may run this program though to see exactly what it is I am looking for.
 			 * I encourage you though to come up with a rough idea, maybe write out a plan for your program, before running mine.

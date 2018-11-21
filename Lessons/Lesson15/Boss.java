@@ -4,10 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Boss {
-//	The Runnable interface used with threads can also be used with lambdas (think about it, it works doesn't it?).
+//	The Runnable interface used with threads can also be used for lambdas (think about it, it works doesn't it?).
 //		It's a functional interface that accepts no parameters and returns nothing as well.
+//		This means we can store Lambdas in the "jobs" list as long as they take no parameters, and return none.
 	private static List<Runnable> jobs = new ArrayList<Runnable>();
-	
+
 //	This is a static initializer block.  These are like a constructor for static things in your class.
 //	It is called only once and on the first time the class is accessed statically.
 //		Remember that accessing a class statically is done by Name.Whatever.
@@ -21,7 +22,7 @@ public class Boss {
 		jobs.add(() -> {System.out.println(Math.floor(6.925f));});
 		jobs.add(() -> {System.out.println(Math.sqrt(49));});
 	}
-	
+
 	public static Runnable getJob() {
 //		Math.random() returns a decimal between 0 and 1 and is useful when you don't want a Random object floating around.
 		return jobs.get((int)(Math.random() * jobs.size()));

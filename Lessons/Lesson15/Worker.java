@@ -1,7 +1,7 @@
 package newLessons.lessonFifteen;
 
 public class Worker {
-//	This is a instance initializer block.
+//	This is aN instance initializer block.
 //	It is called each time the object is initialized no matter which constructor is used.
 //		There is a specific order when working with initializer blocks.
 //		This order assumes that none of the static initialization blocks have been called yet.  If they have then they won't be recalled.
@@ -14,7 +14,7 @@ public class Worker {
 	{
 		System.out.println("I can do stuff!");
 	}
-	
+
 //	There can be multiple of either initialization block (to my knowledge) and then they are called in the order they appear.
 //		There is usually no reason to do such a thing though!
 //	Static initialization blocks are pretty useful
@@ -24,7 +24,7 @@ public class Worker {
 	{
 		System.out.println("I can do more stuff!");
 	}
-	
+
 	/**
 	 * A method that starts the Worker working where he will obtain 5 jobs from his boss.
 	 */

@@ -94,7 +94,7 @@ public class LessonFive extends Lesson {
 			yearInput = input.nextInt();
 			isInputGood = true;
 
-			if (yearInput < 1700 || yearInput > 2010) {
+			if (yearInput < 1700 || yearInput > 2015) {
 				isInputGood = false;
 				System.out.println("You input something that I was not expecting, please try again.");
 			}
