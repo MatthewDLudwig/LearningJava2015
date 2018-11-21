@@ -7,4 +7,4 @@ Originally the lessons were all just java files inside an eclipse project we sen
 
 The first 10 lessons were given as one part and the last 5 as another.  When I gave the last 5 to the student, I also converted lessons 8 - 10 into separate files for each object.  This conversion has only been kept for lesson 10 so as to not hit you with separate files too quickly.
 
-[# Table of Contents #](./Lessons)  
+[# Table of Contents #](./Lessons)
