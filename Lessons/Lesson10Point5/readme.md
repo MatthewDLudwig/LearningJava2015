@@ -27,7 +27,7 @@
 						* That means java.util.Scanner is just like java/util/scanner which is similar to C:\Users\You\Documents\TuesdaysHomework.txt.
 							* We just use . instead of / because we are working with packages and it is another way to make sure we remember the difference.
 								* Another factor is that on different operating systems the file separator is different.
-									* Sometimes it is /, sometimes it is \, and sometimes it could be something else.
+									* Sometimes it is /, sometimes it is \\, and sometimes it could be something else.
 			* In order to create a new package you just go in your IDE and do what you would do to create a class.
 				* That means either File -> New or right clicking, and instead of picking Class you pick package.
 				* If you don't have an IDE and are still using a text editor (WHICH YOU SHOULDN'T BE) you can simply create a new folder.
